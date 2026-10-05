@@ -1,3 +1,4 @@
 import NodeCache from "node-cache";
-const myCache=new NodeCache();
-export {myCache};
+const myCache = new NodeCache();
+
+export { myCache };

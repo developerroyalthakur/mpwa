@@ -1,3 +1,3 @@
-import logger from "./pino.js";
-const lib={log:logger};
-export default lib;
+import { log } from "./pino.js";
+
+export default { log };
