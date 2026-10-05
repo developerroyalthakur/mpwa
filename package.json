@@ -30,6 +30,9 @@
     "querystring": "^0.2.1",
     "uuid": "^13.0.0"
   },
+  "engines": {
+    "node": ">=20 <23"
+  },
   "type": "module",
   "name": "mpwa",
   "version": "15.0.0",
@@ -38,9 +41,7 @@
   "author": "Magd Almuntaser <info@onexgen.com>",
   "license": "CC BY-NC-ND 4.0",
   "nodemonConfig": {
-    "ignore": [
-      "credentials/*"
-    ]
+    "ignore": ["credentials/*"]
   },
   "scripts": {
     "start": "node server.js"
